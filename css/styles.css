@@ -205,6 +205,14 @@ button:focus {
         font-size: 0.96rem;
     }
     /* ASIDE */
+    .aside-info {
+        align-items: flex-start;
+        margin: 1.9rem var(--margeSm) 0 var(--margeSm);
+    }
+    .aside-txt {
+        margin-left: 0.7rem;
+        margin-top: .2rem;
+    }
     /* SECTION HEBERGEMENTS */
     .hebergements,
     .populaires,
@@ -333,6 +341,13 @@ button:focus {
         border-radius: 2rem;
     }
     /* ASIDE */
+    .aside-info {
+        align-items: center;
+        margin: 1.1rem var(--margeMd) 0 var(--margeMd);
+    }
+    .aside-txt {
+        padding-left: 1rem;
+    }
     /* SECTION HEBERGEMENTS */
     .hebergements,
     .populaires,
@@ -398,6 +413,20 @@ button:focus {
 
 
 /* ASIDE */
+
+.aside-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.icon--circle-bordered {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.05rem solid var(--grisFonce);
+    min-width: 1.4rem;
+    min-height: 1.4rem;
+}
 
 
 /* FOOTER */
