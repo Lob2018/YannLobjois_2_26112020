@@ -223,6 +223,21 @@ button:focus {
     /* SECTION POPULAIRES */
     /* SECTION ACTIVITES */
     /* FOOTER */
+    footer {
+        flex-wrap: wrap;
+        padding: var(--margeSm) var(--margeSm);
+    }
+    footer section {
+        width: 100%;
+    }
+    .footer__hebergements,
+    .footer__propos,
+    .footer__assistance {
+        margin-top: var(--margeSm);
+    }
+    .footer__assistance {
+        margin-bottom: var(--margeSm);
+    }
 }
 
 
@@ -358,6 +373,12 @@ button:focus {
     /* SECTION POPULAIRES */
     /* SECTION ACTIVITES */
     /* FOOTER */
+    footer {
+        padding: var(--margeMd);
+    }
+    footer section {
+        width: 33%;
+    }
 }
 
 
@@ -430,3 +451,17 @@ button:focus {
 
 
 /* FOOTER */
+
+footer {
+    background-color: var(--grisFond);
+    display: flex;
+}
+
+footer section ul li {
+    line-height: 2.1rem;
+}
+
+.horsecran {
+    position: absolute;
+    left: -1000rem;
+}
