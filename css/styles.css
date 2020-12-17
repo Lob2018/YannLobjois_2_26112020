@@ -52,6 +52,10 @@ a:active {
     color: var(--bleu);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 input:focus,
 textarea:focus,
 select:focus,
@@ -137,8 +141,9 @@ button:focus {
         flex-direction: row;
         align-items: center;
         box-sizing: border-box;
-        border: 1px solid var(--grisFond);
         border-radius: 0.8rem;
+        border: solid var(--grisFond);
+        border-width: 1px 0 1px 0;
     }
     form label {
         background-color: var(--grisFond);
@@ -180,7 +185,6 @@ button:focus {
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
-        box-sizing: border-box;
     }
     .filtres p {
         order: -1;
@@ -196,7 +200,6 @@ button:focus {
         display: flex;
         flex-direction: row;
         align-items: center;
-        box-sizing: border-box;
         border: solid var(--grisFonce);
         border-width: 2px 2px 2px 0;
         border-radius: 2rem;
@@ -297,8 +300,9 @@ button:focus {
         flex-direction: row;
         align-items: center;
         box-sizing: border-box;
-        border: 1px solid var(--grisFond);
         border-radius: 0.8rem;
+        border: solid var(--grisFond);
+        border-width: 1px 0 1px 0;
     }
     form label {
         background-color: var(--grisFond);
@@ -336,10 +340,11 @@ button:focus {
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
-        box-sizing: border-box;
     }
     .filtres p {
         margin-right: 2.1rem;
+        /* vert-align avec boutons */
+        padding-bottom: 4px;
     }
     .filtres__btn {
         white-space: nowrap;
@@ -350,7 +355,6 @@ button:focus {
         display: flex;
         flex-direction: row;
         align-items: center;
-        box-sizing: border-box;
         border: solid var(--grisFonce);
         border-width: 2px 2px 2px 0;
         border-radius: 2rem;
