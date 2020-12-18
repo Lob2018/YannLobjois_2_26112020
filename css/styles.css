@@ -432,7 +432,7 @@ button:focus {
 }
 
 
-/* Mobile (mobile, 600px and up) */
+/* Tablette (tablette, 600px and up) */
 
 @media only screen and (min-width: 600px) {
     a img {
