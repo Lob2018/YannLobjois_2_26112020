@@ -718,6 +718,12 @@ button:focus {
         object-position: top;
         height: 8rem;
     }
+    /* FOOTER */
+    .footer__hebergements,
+    .footer__propos,
+    .footer__assistance {
+        padding-right: 2rem;
+    }
 }
 
 
