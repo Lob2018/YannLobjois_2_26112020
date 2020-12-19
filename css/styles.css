@@ -729,6 +729,9 @@ button:focus {
     .footer__assistance {
         padding-right: 2rem;
     }
+    footer h3 {
+        margin-bottom: 1.7rem;
+    }
 }
 
 
