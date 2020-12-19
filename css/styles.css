@@ -712,15 +712,12 @@ button:focus {
         height: 11rem;
     }
     .imgH--md1 {
-        object-position: top;
         height: 8.5rem;
     }
     .imgH--md2 {
-        object-position: top;
         height: 10.5rem;
     }
     .imgH--sm {
-        object-position: top;
         height: 8rem;
     }
     /* FOOTER */
@@ -773,6 +770,15 @@ button:focus {
         border-radius: 0.8rem 0 0 0.8rem;
         height: 8.15rem;
         width: 7.5rem;
+    }
+    .imgH--md1 {
+        object-position: top;
+    }
+    .imgH--md2 {
+        object-position: top;
+    }
+    .imgH--sm {
+        object-position: top;
     }
 }
 
