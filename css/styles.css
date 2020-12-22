@@ -441,11 +441,6 @@ button:focus {
     a img {
         object-position: center;
     }
-    html,
-    body {
-        max-width: 1440px;
-        margin: auto;
-    }
     .header-top {
         display: flex;
     }
